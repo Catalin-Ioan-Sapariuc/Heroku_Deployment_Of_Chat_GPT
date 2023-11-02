@@ -4,8 +4,7 @@ from flask import Flask, render_template, request
 import openai, os
 # from dotenv import load_dotenv
 
-#openai.api_key = os.getenv('OPENAI_API_KEY')
-openai.api_key = "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"
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 app = Flask(__name__)
 
