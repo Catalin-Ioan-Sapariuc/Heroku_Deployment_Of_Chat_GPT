@@ -1,0 +1,8 @@
+# The requirements follow the tutorial at: https://www.youtube.com/watch?v=dVLtyuffF7M&lc=Ugwv4-H526AGd8__M9x4AaABAg.9kcUBJgSgrH9kcUXJ2NRW8 
+# Mainly they are: 
+#-- an openai account which generates an OPENAI_API_KEY (see the youtube link)
+# Then: (I installed these both with pip):
+openai
+flask
+gunicorn==20.0.4
+

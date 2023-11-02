@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index Page for question input:
+{% endblock %}
+
+{% block main %}
+    <h3> Introduce your question here: </h3>
+        <form action="/index" method="post"> 
+            <input type="text" name="prompt" placeholder ="Prompt" autocomplete="off">
+            <button type="submit"> Insert your question here </button>
+        </form>
+
+{% endblock %}
